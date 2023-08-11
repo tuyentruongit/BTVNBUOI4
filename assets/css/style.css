@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+
+
+
+
+/* Card nội dung khóa học./Start */
+.rating{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    padding-top: 20px;
+
+}
+.rating p{
+    padding-left: 10px;
+}
+.course-title{
+    padding-top: 40px;
+    padding-left: 10px;
+}
+.course-list {
+    width: 100%;
+    background-color: white;
+    object-fit: cover;
+}
+.course-title p{
+    width: 90%;
+    font-size: 25px;
+}
+.logo img{
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+/* Card parent */
+.wrap-card{
+    width: 1200px;
+    margin: auto;
+    margin-top:100px ;
+}
+/* Card List./Start */
+.list-top{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+
+
+ .card-DevOps{
+    box-shadow: 2px -1px 21px 9px rgba(0,0,0,0.38);
+    width: 30%;
+}
+ .Data-Base{
+    box-shadow: 2px -1px 21px 9px rgba(0,0,0,0.38);
+    width: 30%;
+}
+ .Python-Basic{
+    box-shadow: 2px -1px 21px 9px rgba(0,0,0,0.38);
+    width: 30%;
+}
+/* Card List Bottom */
+.list-bottom{
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 30px;;
+    flex-wrap: wrap;
+    object-fit: cover;
+}
+.card-PE{
+    box-shadow: 2px -1px 21px 9px rgba(0,0,0,0.38);
+    width: 30%;
+}
+.Java-basic{
+    box-shadow: 2px -1px 21px 9px rgba(0,0,0,0.38);
+    width: 30%;
+}
+.Spring-boot{
+    box-shadow: 2px -1px 21px 9px rgba(0,0,0,0.38);
+    width:30%;
+}
+/* Card Information./Start */
+
+.card-footer{
+    width: 100%;
+    display: flex;
+    margin-top: 100px ;
+    justify-content: center;
+    background-color:#30598C;
+    object-fit: over;
+    box-sizing: content-box;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+    padding-left: 50px;
+    color: #E9EDF3;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-size: 17px;
+}
+ul a{
+    color: #EDF1F5;
+}
+
+
+
+.card-four .icon-footer{
+    width: 50%;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+a:hover{
+    color: #919294;
+}
